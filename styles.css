@@ -1,0 +1,41 @@
+p, span, div, h1, h2, h3 {
+    color: hsl(35,  8%, 35%);
+}
+
+ol, ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+li {
+    color: hsl(35,  8%, 35%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+a:hover {
+    background: hsl(300, 12%, 34%);
+}
+
+a {
+    background: hsl(132, 60%, 44%);
+    color: white;
+    padding: 3px;
+}
+
+.title {
+    text-decoration: underline wavy;
+    font-size: xxx-large;
+    text-align: center;
+}
+
+body {
+    background: hsl(35, 36%, 95%);
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    width: 50%;
+}
