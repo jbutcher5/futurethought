@@ -1,8 +1,11 @@
 window.onload = () => {
-  const window_width = (window.innerWidth > 0) ? window.innerWidth : screen.width;
+  const centre_box = document.getElementById("centre-box");
 
-  if (window_width <= 700) {
-    const centre_box = document.getElementById("centre-box");
-    centre_box.style.width = "100%";
+  var window_width = (0 < window.innerWidth && window.innerWidth < screen.width) ? window.innerWidth : screen.width;
+
+  if (window_width <= 500) {
+    centre_box.style.width = "98%";
+  } else if (window_width <= 700) {
+    centre_box.style.width = "70%";
   }
 }
