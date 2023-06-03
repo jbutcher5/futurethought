@@ -36,6 +36,7 @@ a {
 }
 
 .sub-title {
+    margin-left: 10px;
     text-decoration: underline wavy;
     font-size: xx-large;
     text-align: center;
