@@ -4,12 +4,29 @@
         <title>About</title>
         <link href="styles.css" rel="stylesheet" type="text/css">
         <script src="js/global.js"></script>
+        <script src="js/form.js"></script>
     </head>
     <body>
         <div id="centre-box">
             <h1 class="title">About Us</h1>
             <p>At FutureThought we are dedicated to informing people about the consequences of AI/machines on the environment and society.</p>
             <p>Founded by <a href="https://github.com/jbutcher5/">James Butcher</a> in 2023 we have been writing articles on recent developments in technology.</p>
+
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+                <label for="enquiry">(Optionally) Enter an enquiry: </label>
+                <input type="text" name="enquiry" id="enquiry">
+            </div>
+            <div>
+                <button onclick="submitForm()">Join</button>
+            </div>
         </div>
     </body>
 </html>
